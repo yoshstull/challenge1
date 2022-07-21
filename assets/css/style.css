@@ -3,10 +3,13 @@
     padding: 0;
     margin: 0;
 }
+/*starts the body of page*/
 
 body {
     background-color: #d9dcd6;
 }
+
+/*this is where the options in the header go */
 
 .header {
     padding: 20px;
@@ -49,6 +52,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/*these are the areas with the paragraphs in the middle*/
 
 .hero {
     height: 800px;
@@ -134,6 +139,10 @@ p {
     max-width: 150px;
 }
 
+/*rearranged all of these css elements to be grouped together*/
+
+/*this is the are with the articles on the right*/
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -141,7 +150,19 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
+    
 }
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -150,6 +171,17 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .social-media-marketing {
@@ -161,27 +193,10 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
@@ -194,6 +209,8 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/*this is the footer at the very bottom*/
 
 .footer h2 {
     font-size: 20px;
